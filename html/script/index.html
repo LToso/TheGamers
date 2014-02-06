@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Utilizando fancyBox | Post | DaviWp</title>
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.0.6" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.0.6"></script>
+
+
+</head>
+
+<body>
+
+
+<!-- images com efeitos fancybox -->
+<a id="single_1" href="http://farm8.staticflickr.com/7100/6917703112_d18e3e1b95_b.jpg" title="Assunção - Santo Tirso...a New Dimension... (Alex Matos)">
+	<img src="http://farm8.staticflickr.com/7100/6917703112_d18e3e1b95_m.jpg" alt="" />
+</a>
+<a id="single_2" href="http://farm8.staticflickr.com/7140/7061825385_0ccedf2a8e_b.jpg" title="206/365 Delicate (Sunshine-D)">
+	<img src="http://farm8.staticflickr.com/7140/7061825385_0ccedf2a8e_m.jpg" alt="" />
+</a>
+<a id="single_3" href="http://farm8.staticflickr.com/7065/7058141285_064170310e_b.jpg" title="Cummeengeera Settlement/Rabachs Glen. (alancronin02)">
+	<img src="http://farm8.staticflickr.com/7065/7058141285_064170310e_m.jpg" alt="" />
+</a>
+<a id="single_4" href="http://farm6.staticflickr.com/5333/7061356373_1af921fd78_b.jpg" title="1968 Dodge Charger R/T - Solaris (1968 Dodge Charger R/T)">
+	<img src="http://farm6.staticflickr.com/5333/7061356373_1af921fd78_m.jpg" alt="" />
+</a>
+
+
+
+<!-- chamada dos efeitos -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#single_1").fancybox({
+			  helpers: {
+				  title : {
+					  type : 'float'
+				  }
+			  }
+		  });
+	
+		$("#single_2").fancybox({
+			openEffect	: 'elastic',
+			closeEffect	: 'elastic',
+	
+			helpers : {
+				title : {
+					type : 'inside'
+				}
+			}
+		});
+	
+		$("#single_3").fancybox({
+			openEffect : 'none',
+			closeEffect	: 'none',
+			helpers : {
+				title : {
+					type : 'outside'
+				}
+			}
+		});
+	
+		$("#single_4").fancybox({
+			helpers : {
+				title : {
+					type : 'over'
+				}
+			}
+		});
+	});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+html
+{
+    height: 100%;
+    width: 100%;
+    
+}
+
+body 
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: transparent;
+    font-family: Microsoft Sans Serif;
+}
+
+#formMasterPage
+{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fundoEsquerdo
+{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url("/TheGamers/html/images/man.jpg");
+    width: 20%;
+    height: 100%;
+    float: left;
+    z-index: 1;
+}
+
+.fundoDireito
+{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url("/TheGamers/html/images/girl.jpg");
+    height: 100%;
+    width: 20%;
+    float: left;
+    z-index: 2;
+}
+
+.fundoCentro
+{
+    height: 100%;
+    width: 60%;
+    float: left;    
+    z-index: 3;
+}
+
+#login
+{
+    width: 350px;
+    height: 300px;
+    text-align: left;
+    margin: auto;
+    margin-top: 5%;
+    padding-top: 20px;
+}
+
+.botaoGrande
+{
+    width: 360px;
+    height: 50px;
+    border: 0;
+    color: White;
+    background-color: DarkRed;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.campoLogin
+{
+    width: 350px;
+    height: 40px;
+    border: 0;
+    box-shadow: 0px 0px 1px 1px #333333;
+    color: #333333;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.LabelWarn
+{
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#cabecalho
+{
+    width: 100%;
+    font-family: Days;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#tituloGrande
+{
+       font-size: 58px;
+}
+
+#tituloPequeno
+{
+       font-size: 22px;
+}
+
+#divContent
+{
+    width: 600px;  
+    margin: auto;
+    margin-top: 15px;
+}
+
+#foto
+{
+    width: 100px;
+    height: 100px;
+    background-color: Red;
+}
+
+#titulo
+{
+    width: 350px;
+    background-color: Blue;
+}
+
+#data
+{
+    width: 150px;
+    background-color:Green;
+}
+
+#mensagem
+{
+    width: 600px;
+    height: 400px;
+    background-color: White;
+}
+
+#comentarios
+{
+    width: 600px;
+    height: 40px;
+    background-color: Aqua;
+}
+
+#noticia
+{
+    width: 600px;    
+    margin: auto;
+    padding: 1px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px 1px #333333;
+}
