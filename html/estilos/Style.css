@@ -25,7 +25,7 @@ body
 {
     background-repeat: no-repeat;
     background-position: bottom;
-    background-image: url("/TheGamers/html/images/man.jpg");
+    background-image: url("../images/man.jpg");
     width: 20%;
     height: 100%;
     float: left;
@@ -36,7 +36,7 @@ body
 {
     background-repeat: no-repeat;
     background-position: bottom;
-    background-image: url("/TheGamers/html/images/girl.jpg");
+    background-image: url("../images/girl.jpg");
     height: 100%;
     width: 20%;
     float: left;
